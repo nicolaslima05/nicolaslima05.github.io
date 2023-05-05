@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #EBE3E0;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    background-color: #3A1A13;
+}
+
+#logoImg{
+    height: 194px;
+    width: 194px;
+    position: center;
+    border: solid 3px #3A1A13;
+    border-radius: 50%;
+}
+
+#telefoneImg{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    top: 135px;
+    right:130px;
+}
+
+#telefone{
+    position: absolute;
+    right: 25px;
+    top: 130px;
+    font-size: 1rem;
+    color:#EBE3E0;
+}
+
+#arroba{
+    color: #EBE3E0;
+    text-align: right;
+    font-family: sans-serif;
+    position: absolute;
+    right: 25px;
+    top: 190px;
+}
+
+#instagramImg{
+    position:absolute;
+    top: 180px;
+    right:100px;
+    height: 30px;
+    width: 30px;
+}
+
+#titulo{
+    position: relative;
+    width: 1450px;
+    background-color:#3A1A13;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+#titulo h1{
+    text-align: center;
+    color:#EBE3E0;
+}
+
+.coluna-esquerda{
+    position: absolute;
+    border-radius: 5%;
+    height: 500px;
+    width: 800px;
+    background-image: url(imagens/giveonskye.jpg);
+}
+
+.coluna-direita{
+    position: absolute;
+    float: right;
+    border-radius: 5%;
+    left: 808px;
+    height: 500px;
+    width: 775px;
+    background-color: #3A1A13;
+}
+
+.coluna-direita h1{
+    position: relative;
+    color: #EBE3E0;
+    top: 175px;
+    left: 250px;
+}
+
+.coluna-direita h2{
+    position: relative;
+    top: 175px;
+    left: 250px;
+    color: #EBE3E0;
+}
+
+.coluna-direita h3{
+    position: relative;
+    top: 175px;
+    left: 250px;
+    color: #EBE3E0;
+}

@@ -1,0 +1,196 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #EBE3E0;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    background-color: #3A1A13;
+}
+
+#logoImg{
+    height: 184px;
+    width: 184px;
+    position: center;
+    border: solid 3px #3A1A13;
+    border-radius: 50%;
+}
+
+#telefoneImg{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    top: 130px;
+    right:130px;
+}
+
+#telefone{
+    position: absolute;
+    right: 25px;
+    top: 125px;
+    font-size: 1rem;
+    color:#EBE3E0;
+}
+
+#arroba{
+    color: #EBE3E0;
+    text-align: right;
+    font-family: sans-serif;
+    position: absolute;
+    right: 25px;
+    top: 180px;
+}
+
+#instagramImg{
+    position:absolute;
+    top: 170px;
+    right:100px;
+    height: 30px;
+    width: 30px;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    background-image: url(imagens/cafeteria.jpg);
+    background-size: 100%;
+    height: 650px;
+    width: 1567px;
+}
+    
+
+.meio p{
+    font-size: 40px;
+    color: #EBE3E0;
+    top: 400px;
+    right: 550px;
+}
+
+
+#titulo{
+    font-size: 40px;
+    color: #EBE3E0;
+    position: absolute;
+    justify-content: center;
+}
+
+.coluna-meio{
+    position: relative;
+    background-color: #3A1A13;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+.coluna-meio h2{
+    text-align: center;
+    color:#EBE3E0;
+}
+
+.sobreNos{
+    background-color: #3A1A13;
+}
+
+.coluna-direita{
+    position: relative;
+    float: right;
+    height: 534px;
+    width: 767px;
+    background-color:#EBE3E0;
+    border-radius: 5%;
+}
+
+.coluna-direita h3{
+    position:relative;
+    left:0px;
+    text-align: center;
+    color:#3A1A13;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+
+.coluna-direita img{
+    width: 800px;
+    border-radius: 5%;
+}
+
+#clique{
+    position: absolute;
+    width: 120px;
+    top: 300px;
+    right: 300px;
+    border-radius: 5%;
+    background-color:#EBE3E0;
+}
+
+#clique a{
+    color:#3A1A13;
+    font-size: 30px;
+    text-align: center;
+}
+
+#clique:hover{
+    transform: scale(1.2);
+}
+
+.coluna-esquerda{
+    position: relative;
+    border-radius: 5%;
+    height: 534px;
+    width: 800px;
+    background-color: #3A1A13;
+}
+
+.coluna-esquerda img{
+    width: 800px;
+    border-radius: 5%;
+}
+
+.coluna-esquerda h3{
+    position: relative;
+    top: 160px;
+    color: #EBE3E0;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.coluna-direita2{
+    position: absolute;
+    right: 10px;
+    top: 1640px;
+    height: 534px;
+    width: 767px;
+    background-color:#EBE3E0;
+    border-radius: 5%;
+}
+
+.coluna-direita2 img{
+    height: 534px;
+    width: 767px;
+    border-radius: 5%;
+}
+
+#clique2{
+    position: absolute;
+    width: 120px;
+    top: 400px;
+    right: 325px;
+    border-radius: 5%;
+    background-color:#3A1A13;
+}
+
+#clique2 a{
+    color:#EBE3E0;
+    font-size: 30px;
+    text-align: center;
+}
+
+#clique2:hover{
+    transform: scale(1.2);
+}
+
+

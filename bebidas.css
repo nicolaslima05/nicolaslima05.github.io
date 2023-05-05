@@ -1,0 +1,172 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #EBE3E0;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    background-color: #3A1A13;
+}
+
+#logoImg{
+    height: 194px;
+    width: 194px;
+    position: center;
+    border: solid 3px #3A1A13;
+    border-radius: 50%;
+}
+
+#telefoneImg{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    top: 135px;
+    right:130px;
+}
+
+#telefone{
+    position: absolute;
+    right: 25px;
+    top: 130px;
+    font-size: 1rem;
+    color:#EBE3E0;
+}
+
+#arroba{
+    color: #EBE3E0;
+    text-align: right;
+    font-family: sans-serif;
+    position: absolute;
+    right: 25px;
+    top: 190px;
+}
+
+#instagramImg{
+    position:absolute;
+    top: 180px;
+    right:100px;
+    height: 30px;
+    width: 30px;
+}
+
+#titulo{
+    position: relative;
+    width: 1450px;
+    background-color:#3A1A13;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+#titulo h1{
+    text-align: center;
+    color:#EBE3E0;
+}
+
+.coluna-esquerda{
+    position:absolute;
+    top: 400px;
+    left: 45px;
+    border-radius: 5%;
+    width: 225px;
+    height: 425px;
+    background-color:#EBE3E0;
+    border: solid 3px #3A1A13;
+    background-image: url(imagens/capuccino.jpg);
+}
+
+.coluna-esquerda:hover{
+    transform: scale(1.1);
+}
+
+.coluna-esquerda p{
+    color: #EBE3E0;
+    position: relative;
+    top: 115px;
+    left: 40px;
+    font-size: 2rem;
+}
+
+.coluna-meio{
+    position:absolute;
+    top: 400px;
+    left: 445px;
+    border-radius: 5%;
+    width: 225px;
+    height: 425px;
+    background-color:#EBE3E0;
+    border: solid 3px #3A1A13;
+    background-image: url(imagens/cafepuro.jpg);
+}
+
+.coluna-meio:hover{
+    transform: scale(1.1);
+}
+
+.coluna-meio p{
+    color: #EBE3E0;
+    position: relative;
+    top: 115px;
+    left: 50px;
+    font-size: 2rem;
+}
+
+.coluna-meio2{
+    position:absolute;
+    top: 400px;
+    left: 845px;
+    border-radius: 5%;
+    width: 225px;
+    height: 425px;
+    background-color:#EBE3E0;
+    border: solid 3px #3A1A13;
+    background-image: url(imagens/cafeleite.jpg);
+}
+
+.coluna-meio2:hover{
+    transform: scale(1.1);
+}
+
+.coluna-meio2 p{
+    color: #EBE3E0;
+    position: relative;
+    top: 115px;
+    left: 17px;
+    font-size: 2rem;
+}
+
+.coluna-direita{
+    position:absolute;
+    top: 400px;
+    left: 1245px;
+    border-radius: 5%;
+    width: 225px;
+    height: 425px;
+    background-color:#EBE3E0;
+    border: solid 3px #3A1A13;
+    background-image: url(imagens/expresso.jpg);
+}
+
+.coluna-direita:hover{
+    transform: scale(1.1);
+}
+
+.coluna-direita p{
+    color: #EBE3E0;
+    position: relative;
+    top: 115px;
+    left: 60px;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
